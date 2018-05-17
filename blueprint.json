@@ -1,0 +1,56 @@
+{
+  "appIconURL": "blueprint/web.svg",
+  "checklist": [
+    {
+      "label": "Complete the prerequisites",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#before-you-begin"
+    },
+    {
+      "label": "Optional: Add services",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#add-services"
+    },
+    {
+      "label": "Generate your project code",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#generate-code"
+    },
+    {
+      "label": "Begin working on your app",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#code"
+    },
+    {
+      "label": "Build and run the app locally",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#build-run"
+    },
+    {
+      "label": "Deploy to the cloud",
+      "link": "https://console.stage1.bluemix.net/docs/apps/tutorials/tutorial_web.html#deploy"
+    }
+  ],
+  "description": "Demo Things",
+  "name": "Darden AI Web",
+  "previewURLs": [],
+  "type": "WEB",
+  "tags":["devex"],
+  "generators": {
+    "python" : ["generator-ibm-cloud-enablement", "generator-ibm-service-enablement", "generator-readme"]
+  },
+  "generatorOptions": {
+     "generator-readme": {
+      "scope": "@arf",
+      "options": {
+        "appType": "WEB",
+        "framework": "None"
+      }
+    },
+    "generator-ibm-cloud-enablement": {
+      "options": {
+        "port": "3000"
+      }
+    },
+    "generator-ibm-service-enablement": {
+    }
+  },
+  "thumbnailURL": "blueprint/webapp.svg",
+  "requiredCapabilities": [],
+  "email": "cloud@ibm.com"
+}
