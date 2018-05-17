@@ -1,5 +1,5 @@
 {
-  "appIconURL": "blueprint/web.svg",
+  "appIconURL": "https://en.wikipedia.org/wiki/Bluemix#/media/File:IBM_Bluemix_logo.svg",
   "checklist": [
     {
       "label": "Complete the prerequisites",
@@ -54,7 +54,7 @@
     },
     "generator-ibm-service-enablement": {}
   },
-  "thumbnailURL": "blueprint/webapp.svg",
+  "thumbnailURL": "https://en.wikipedia.org/wiki/Bluemix#/media/File:IBM_Bluemix_logo.svg",
   "requiredCapabilities": [],
   "email": "cloud@ibm.com"
 }
