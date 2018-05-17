@@ -37,8 +37,7 @@
   "generatorOptions": {
       "generator-starterkit-content-downloader":{
         "version": "0.x.x",
-        "scope": "@arf",
-        "optionOverrides": {}
+        "scope": "@arf"
       },
      "generator-readme": {
       "scope": "@arf",
