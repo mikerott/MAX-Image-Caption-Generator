@@ -49,7 +49,10 @@
       }
     },
     "generator-ibm-service-enablement": {
-    }
+        "version": "0.x.x",
+        "scope": "@arf",
+        "optionOverrides": {}
+      }
   },
   "thumbnailURL": "blueprint/webapp.svg",
   "requiredCapabilities": [],
