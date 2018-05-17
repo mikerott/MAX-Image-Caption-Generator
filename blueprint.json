@@ -34,7 +34,11 @@
   "generators": {
     "python" : ["generator-starterkit-content-downloader", "generator-ibm-cloud-enablement", "generator-ibm-service-enablement", "generator-readme"]
   },
-  "generator-starterkit-content-downloader":{},
+  "generator-starterkit-content-downloader":{
+        "version": "0.x.x",
+        "scope": "@arf",
+        "optionOverrides": {}
+      },
   "generatorOptions": {
      "generator-readme": {
       "scope": "@arf",
@@ -48,11 +52,7 @@
         "port": "3000"
       }
     },
-    "generator-ibm-service-enablement": {
-        "version": "0.x.x",
-        "scope": "@arf",
-        "optionOverrides": {}
-      }
+    "generator-ibm-service-enablement": {}
   },
   "thumbnailURL": "blueprint/webapp.svg",
   "requiredCapabilities": [],
